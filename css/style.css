@@ -4,6 +4,7 @@ html {
 
 body {
     height: 100%;
+    background-color: gold;
     
 }
 a {
@@ -12,6 +13,23 @@ a {
 
 .main {
     height: 100%;
+    background-image: url("https://www.sidefx.com/media/uploads/story/stories/fx-adventures-in-uncharted-4-a-thiefs-end/uncharted-4_drake-sully-vista1.jpg");
+     background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: 50% 10%;
+    text-align: center;
+    margin: 0 auto;
+
+}
+
+.rightPane{
+    height: 100%;
+    background-image: url("https://www.gamepur.com/files/images/2016/uncharted-series-worldwide-sales.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: 50% 10%;
+    text-align: center;
+    margin: 0 auto;
 }
 .social-image{
     width: 30px;
