@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Charmonman');
+
 html {
     height: 100%;
 }
@@ -6,9 +8,9 @@ html {
             width: 900px;
             border-top: solid black 2px;
             height: 200px;
-            background-image: url("https://famfonts.com/wp-content/uploads/uncharted-wide.png");
+            background-image: url("https://www.playstation-gear.com/storage/app/uploads/public/590/367/eed/thumb_1101_0x250_0_0_auto.png");
             background-repeat: no-repeat;
-            background-size: 100%;
+            background-size: 85%;
             background-position: 50% 50%;
             text-align: center;
             margin: 0 auto;
@@ -22,7 +24,10 @@ body {
             background-attachment: fixed;
 }
 a {
-    text-decoration: none;
+    color: black;
+    font-family: 'Charmonman', cursive;
+    font-size: 40px;
+    text-shadow: 2px 4px 3px rgba(0,0,0,0.3);
 }
 
 .header{
@@ -35,18 +40,26 @@ a {
     justify-content: space-around;
 }
 
+
 .main {
-    height: 500px;
-    width: 500px;
+    height: 750px;
+    width: 1000px;
     margin: 0 auto;
     background-color: #bdc3c7;
-    opacity: 0.7
+    opacity: 0.7;
+    border: solid 5px red;
+    text-align: center;
+    border-radius: 10px;
+    border: ridge 6px red;
+    font-family: 'Charmonman', cursive;
 
 }
 
 .footer{
     display: flex;
     justify-content: space-around;
+     font-family: 'Charmonman', cursive;
+     color: red;
 }
 
 .rightPane{
@@ -62,3 +75,13 @@ a {
     width: 30px;
     margin: 15px;
 }
+
+h1{
+    font-size: 50px;
+    text-decoration: underline;
+}
+
+p{
+    font-size: 30px;
+}
+
