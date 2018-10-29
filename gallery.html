@@ -5,27 +5,129 @@
         <title>Uncharted</title>
         <link rel="stylesheet" href="css/style.css" type="text/css" />
     </head>
+    
+     <style>
+    @import url('https://fonts.googleapis.com/css?family=Charmonman');
+    
+body {
+    background-image: url("http://allthingsuncharted.com/wp-content/uploads/2015/06/Uncharted-4_drake-truck-drag_1434429080.jpg");
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    background-size: 100%;
+    background-attachment: fixed;
+}
+        
+.gallery{
+    width: 1200px;
+    height: 1210px;
+    background-color: white;
+    margin: 0 auto;
+    border: solid 5px red;
+    border-radius: 10px;
+    text-align: center;
+    opacity: 0.8;
+}
+
+.AB{
+    color: red;
+    font-family: 'Charmonman', cursive;
+    text-decoration: underline;
+    text-shadow: 2px 4px 3px rgba(0,0,0,0.3);
+}
+
+.GP{
+    color: red;
+    font-family: 'Merienda', cursive;
+}
+
+#wrapper{
+    width: 100%;
+    height: 436px;
+    background-color: white;
+    border: solid red 2px;
+}
+
+#wrapperTwo{
+    width: 100%;
+    height: 500px;
+    background-color: white;
+    border: solid red 2px;
+}
+
+#one {
+    width: 49%;
+    float: left;
+}
+
+ #two {
+    width: 49%;
+    float: right;
+    border-left: solid black 3px;
+}
+
+  #three {
+    width: 49%;
+    float: left;
+}
+
+  #four {
+    width: 49%;
+    float: right;
+    border-left: solid black 3px;
+}
+
+.box {
+    width: 50%;
+}
+
+ .imgLeft {
+    float: left;
+    margin-right: 15px;
+}      
+
+ .imgRight {
+    float: right;
+    margin-left: 15px;
+}
+
+    </style>
+    
     <body>
-        <div class="header">Uncharted</div>
+        
+         <a href="index.html"><div id="banner"></div></a>
+        
         <div class=navbar>
              <a href="index.html">Home</a>
              <a href="about.html">About</a>
              <a href="gallery.html">Gallery</a>
         </div>
         <div class="gallery">
-            <div class="thumbnail">
-                <img class="thumbnail-image" src="https://psmedia.playstation.com/is/image/psmedia/uncharted-3-drakes-deception-remastered-listing-thumb-01-ps4-eu-28sep16?$Icon$">
+            <h1 class="AB">Gallery</h1>
+            <p>This is the gallery page for my Uncharted fanpage. Sorry there won't alot of pictures like a gallery should have, but these are my four favorite pics</p>
+            <div id="wrapper">
+                <div id="wrapper">
+                    <div id="one" class="box"><img class="imgLeft" src="https://www.telegraph.co.uk/content/dam/gaming/2015-10/The-Nathan-Drake-Collection.jpg?imwidth=450">
+                    <p>This is an image of Nathan Drake chasing a plane while being chased down by Marlowe's crew in the middle of an airport.</p>
             </div>
-            <div class="thumbnail">
-                <img class="thumbnail-image" src="http://www.playstationlifestyle.net/assets/uploads/2018/08/Uncharted-5.jpg">
+            <div id="two" class="box"><img class="imgRight" src="http://www.playstationlifestyle.net/assets/uploads/2018/08/Uncharted-5.jpg">
+            <p>This is the opening shot of Chole Frazer and Nadine Ross adventure from <strong>Uncharted: The Lost Legacy</strong>.</p>
             </div>
-            <div class="thumbnail">
-                <img class="thumbnail-image" src="http://images.pushsquare.com/5c15ce01f918c/555x385.jpg">
+            
             </div>
-            <div class="thumbnail">
-                <img class="thumbnail-image" src="https://www.justpushstart.com/wp-content/uploads/2015/10/22497542516_0a3858e4d8_z.jpg">
+            
+            <div id="wrapperTwo">
+                <div id="three" class="box"><img class="imgLeft" src="http://images.pushsquare.com/5c15ce01f918c/555x385.jpg">
+                <p>This was Nathan Drake when he was 13. Drake's famous quotes, "Greatness from small beginnings".</p>
+            </div>
+            <div id="four" class="box"><img class="imgRight" src="https://cdn3-www.playstationlifestyle.net/assets/uploads/2016/11/uncharted-4-survival2.jpg">
+            <p>This is a screenshot of <strong>Uncharted 4: A Thief's End</strong> Survival mode.</p>
             </div>
         </div>
+        
+        </div>
+        </div>
+        <br>
+        
         <div class="footer">
             <div class="social">
                 <a href="https://www.facebook.com/">
@@ -39,7 +141,7 @@
                 </a>
             </div>
             <div>
-                <p>Copyright 2018 &copy</p>
+                <p>Copyright 2018 &copy Zeyd Alabsi</p>
             </div>
         </div>
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>

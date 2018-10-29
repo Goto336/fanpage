@@ -58,8 +58,8 @@ a {
 .footer{
     display: flex;
     justify-content: space-around;
-     font-family: 'Charmonman', cursive;
-     color: red;
+    font-family: 'Charmonman', cursive;
+    color: red;
 }
 
 .rightPane{
@@ -75,6 +75,7 @@ a {
 h1{
     font-size: 50px;
     text-decoration: underline;
+    color:red;
 }
 
 p{
