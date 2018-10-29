@@ -40,6 +40,11 @@ a {
     justify-content: space-around;
 }
 
+a:hover {
+    color: red;
+    text-decoration: underline;
+}
+
 
 .main {
     height: 750px;
